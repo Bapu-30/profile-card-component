@@ -23,10 +23,13 @@ body {
 }
 
 hr {
-    width: 100%;
+    /* width: 100%;
     background-color: hsl(0, 25%, 98%);
     height: 0.1px;
-    outline-style: none;
+    outline-style: none; */
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid hsl(0, 3%, 76%);
 }
 
 .card {
@@ -70,6 +73,11 @@ h1 {
 .name span {
     font-weight: 400;
     color: hsl(227, 10%, 46%);
+    padding-left: 5px;
+}
+
+.city {
+    /* margin-left: 15px; */
 }
 
 .dp {
