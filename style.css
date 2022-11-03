@@ -24,8 +24,8 @@ body {
 
 hr {
     width: 100%;
-    color: gray;
-    height: 1px;
+    background-color: hsl(0, 25%, 98%);
+    height: 0.1px;
     outline-style: none;
 }
 
