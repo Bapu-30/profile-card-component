@@ -63,7 +63,7 @@ h1 {
     color: hsl(229, 23%, 23%);
 }
 
-p {
+.para {
     color: hsl(227, 10%, 46%);
 }
 
@@ -87,10 +87,9 @@ p {
 .footer {
     display: flex;
     align-items: center;
-    gap: 4rem;
+    justify-content: space-evenly;
     padding: 20px 0;
-
-
+    width: 100%;
 }
 
 .footer div {
@@ -99,8 +98,15 @@ p {
 
 }
 
-.footer p {
-    font-size: 13px;
+.footer .stats {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+
+.footer .statsname {
+    font-size: 12px;
     font-weight: 400;
     letter-spacing: 1px;
 }
