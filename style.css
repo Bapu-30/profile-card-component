@@ -25,9 +25,8 @@ body {
 hr {
     width: 100%;
     color: gray;
-    border-style: inset;
-    border-width: 1px;
-    margin: 0.5em auto;
+    height: 1px;
+    outline-style: none;
 }
 
 .card {
